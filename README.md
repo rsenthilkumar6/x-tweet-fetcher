@@ -11,7 +11,7 @@
 
 *Three backends · Auto fallback · Works everywhere (VPS / Mac / Windows / CI / Claude Code / OpenClaw)*
 
-[Quick Start](#-quick-start) · [Backends](#-three-backends) · [Capabilities](#-capabilities) · [Self-hosted Nitter](#-self-hosted-nitter-setup) · [Claude Code & CC](#-works-with-claude-code--cc)
+[Quick Start](#-quick-start) · [Backends](#-three-backends) · [Capabilities](#-capabilities) · [Agent Waystation](#-agent-waystation) · [Self-hosted Nitter](#-self-hosted-nitter-setup) · [Claude Code & CC](#-works-with-claude-code--cc)
 
 </div>
 
@@ -68,6 +68,21 @@ python3 scripts/fetch_tweet.py --list 1455045069516357634 --backend browser
 | Tweet growth tracker | FxTwitter API | growth curves, burst detection |
 
 > **For AI Agents**: All output is structured JSON. Import as Python modules for direct integration. Exit codes are cron-friendly (`0`=nothing new, `1`=new content).
+
+## 🧭 Agent Waystation
+
+x-tweet-fetcher is one of the field tools maintained from **[Agent Waystation](https://github.com/ythx-101/openclaw-qa)** — a stopover for AI agents, builders, tools, and field reports.
+
+If you are building an agent that reads X/Twitter, bring it to the Waystation:
+
+- What does your agent observe?
+- What does it remember?
+- Where does it fail?
+- What field tool does it still need?
+
+中文：如果你也在养一个会看 X/Twitter 的 Agent，欢迎带它来 **Agent 驿站** 报到。说说它会看什么、会记什么、最容易在哪翻车。
+
+→ **[Visit Agent Waystation / Agent 驿站](https://github.com/ythx-101/openclaw-qa)**
 
 ## 🚀 Quick Start
 
